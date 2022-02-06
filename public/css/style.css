@@ -386,12 +386,12 @@ blockquote p {
 }
 .logo-holder {
 	position:absolute;
-	top:20px;
-	left:26px;
+	/* top:5px; */
+	left:15px;
 }
 .logo-holder img {
 	width:auto;
-	height:34px;
+	height:80px;
 }
 .header-contacts {
 	float:right;
@@ -5371,11 +5371,11 @@ section.parallax-section .bg {
 	top:50px;
 }
 .logo-holder {
-	top:28px;
-}
+	top:10px;
+	left:-3px;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 .logo-holder img {
-
-    height: 24px;
+    height: 70px;
 }
 .main-header:before  {
 	width:80px;
