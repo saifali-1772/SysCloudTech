@@ -17,8 +17,16 @@ route.get('/contacts',(req,res)=>{
     res.render('contacts',{header_data:"| Contacts"})
 })
 
+route.get('/trainingDevelopment',(req,res)=>{
+    res.render('trainingDevelopment',{header_data:"| Training & Development"})
+})
+
 route.get('/blog',(req,res)=>{
     res.render('blog',{header_data:"| Blog"})
+})
+
+route.get('*',(req,res)=>{
+    res.render('error',{header_data:"| 404 Error"})
 })
 
 module.exports = route

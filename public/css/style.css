@@ -386,7 +386,7 @@ blockquote p {
 }
 .logo-holder {
 	position:absolute;
-	/* top:5px; */
+	top:-2px;
 	left:15px;
 }
 .logo-holder img {
