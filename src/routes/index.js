@@ -37,6 +37,12 @@ route.get('/blog',(req,res)=>{
     res.render('blog',{header_data:"| Blog"})
 })
 
+// <=================================================   CYBERSECURITY   ====================================================================>
+
+route.get('/comptiaitf',(req,res)=>{
+    res.render('./trainingDev/cybersecurity/ecCouncil/comptiaitf',{header_data:"| Comptia Itf+"})
+})
+
 route.get('*',(req,res)=>{
     res.render('error',{header_data:"| 404 Error"})
 })
