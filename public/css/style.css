@@ -5510,3 +5510,19 @@ section.parallax-section .bg {
 		font-size: 22px;
 	}
 }
+
+.pdf{
+	background-color: #00c7de; /* Green */
+  border: none;
+  color: white;
+  /* padding: 5px; */
+  width: 20px;
+  height: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
