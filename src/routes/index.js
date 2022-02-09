@@ -39,8 +39,8 @@ route.get('/blog',(req,res)=>{
 
 // <=================================================   CYBERSECURITY   ====================================================================>
 
-route.get('/comptiaitf',(req,res)=>{
-    res.render('./trainingDev/cybersecurity/ecCouncil/comptiaitf',{header_data:"| Comptia Itf+"})
+route.get('/cyber',(req,res)=>{
+    res.render('cyber',{header_data:"| cyber"})
 })
 
 route.get('*',(req,res)=>{
