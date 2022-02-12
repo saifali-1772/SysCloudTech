@@ -39,8 +39,8 @@ route.get('/blog',(req,res)=>{
 
 // <=================================================   CYBERSECURITY   ====================================================================>
 
-route.get('/cyber',(req,res)=>{
-    res.render('cyber',{header_data:"| cyber"})
+route.get('/Boost',(req,res)=>{
+    res.render('boost_cx',{header_data:"| Boost CX"})
 })
 
 route.get('*',(req,res)=>{
