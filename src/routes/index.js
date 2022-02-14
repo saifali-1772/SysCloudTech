@@ -26,7 +26,7 @@ route.get('/vapt',(req,res)=>{
 })
 
 route.get('/Solution',(req,res)=>{
-    res.render('Solution',{header_data:"| Solution"})
+    res.render('solution',{header_data:"| Solution"})
 })
 
 route.get('/Recruitment',(req,res)=>{
