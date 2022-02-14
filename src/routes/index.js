@@ -37,11 +37,33 @@ route.get('/blog',(req,res)=>{
     res.render('blog',{header_data:"| Blog"})
 })
 
-// <=================================================   CYBERSECURITY   ====================================================================>
-
 route.get('/Boost',(req,res)=>{
     res.render('boost_cx',{header_data:"| Boost CX"})
 })
+
+// <=================================================   CYBERSECURITY   ====================================================================>
+
+route.get('/CloudComputing',(req,res)=>{
+    res.render('tnd/cloudComputing',{header_data:"| Cloud Computing"})
+})
+
+route.get('/Cybersecurity',(req,res)=>{
+    res.render('tnd/cybersecurity',{header_data:"| Cybersecurity"})
+})
+
+route.get('/Networking',(req,res)=>{
+    res.render('tnd/networking',{header_data:"| Networking"})
+})
+
+route.get('/ProjectManagment',(req,res)=>{
+    res.render('tnd/projectManagment',{header_data:"| Project Managment"})
+})
+
+route.get('*',(req,res)=>{
+    res.render('error',{header_data:"| 404 Error"})
+})
+
+
 
 route.get('*',(req,res)=>{
     res.render('error',{header_data:"| 404 Error"})

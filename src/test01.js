@@ -2,10 +2,53 @@ const express = require('express')
 const route = express.Router()
 module.exports = route
 
-let person={ 
-   firstName : "Amit",
-   lastName : "more"
-}
+
+
+// js assignment operator
+// 1. equal ( = )
+// 2. add ( + )
+// 3. sub ( - )
+// 4. mul ( * )
+// 5. div ( / )
+// 6. module, remainder ( % )
+// 7. and ( & )
+// 8. or ( | )
+// 9. xor ( ^ )
+// 10. shifted left ( << )
+// 11. shifted right ( >> )
+// 12. shifted right ( >>> )
+
+// let product = {
+//     valueOf : function(){
+//         return 50;
+//     }
+// }
+// console.log(product) // { valueOf: [Function: valueOf] }
+// console.log(+product) // ans : 50
+
+// let f = false, t = true
+// console.log(+f) // ans : 0
+// console.log(+t) // ans : 1
+
+// var x = "10"
+// console.log(x) // ans : 10, typeOf : String
+// console.log(+x) // ans : 10, typeOf : Number
+
+// var x = Boolean('hi')
+// console.log(x) // true
+// console.log(typeof x) // boolean
+
+// var x = 179.873298
+// console.log(x.toFixed(2)) // ans : 179.87
+
+// var aNum = new Number(20)
+// console.log(aNum.toString(2)) // ans : 10100, typeOf : String
+
+// var aNum = new Number(20)
+// console.log(aNum.toString()) // ans : 200, typeOf : String
+
+// var num = new Number(100)
+// console.log(num.valueOf()) // ans : 100, typeOf : Number
 
 // console.log(Symbol() == Symbol()) // false
 // console.log(Symbol('event.save')) // Symbol(event.save

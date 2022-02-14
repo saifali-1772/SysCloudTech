@@ -7,9 +7,11 @@ app.use(express.static('public'))
 app.set('view engine','ejs')
 
 const index = require('./src/routes/index')
+const tnd = require('./src/routes/tnd')
 const test = require('./src/test01')
 
 app.use('/',index)
+app.use('/',tnd)
 app.use('/a',test)
 
 app.listen(port)
