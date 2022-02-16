@@ -59,6 +59,10 @@ route.get('/ProjectManagment',(req,res)=>{
     res.render('tnd/projectManagment',{header_data:"| Project Managment"})
 })
 
+route.get('/T&C',(req,res)=>{
+    res.render('t&c',{header_data:"| T&C"})
+})
+
 route.get('*',(req,res)=>{
     res.render('error',{header_data:"| 404 Error"})
 })
